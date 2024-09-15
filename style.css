@@ -1,0 +1,195 @@
+body{
+    font-family: karla;
+    font-size: 14px;
+    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 228, 243);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+#upper-section{
+    padding: 30px;
+    color: #1c1c1c;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.upper-title{
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: hsl(179, 62%, 43%);
+}
+
+.guarantee{
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    color:  hsl(71, 73%, 54%);
+}
+
+.upper-content{
+    line-height: 30px;
+}
+
+#green-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+    border-radius: 0 0 10px 10px;
+}
+
+#signup-section{
+    padding: 30px;
+    flex: 1;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.dollar{
+    margin: 0 5px 0 0;
+}
+
+.btn{
+    font-family: inherit;
+    color: inherit;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    border: none;
+    border-radius: 5px;
+    background-color:  hsl(71, 73%, 54%);
+    box-shadow: 0 0 4px rgb(75, 74, 74);
+}
+
+.btn:hover{
+    background-color:  hsl(71, 73%, 44%);
+}
+
+#why-section{
+    padding:30px;
+    flex: 1;
+    background-color: hsl(179, 62%, 60%);
+    border-radius: 0 0 10px 0;
+}
+
+p{
+    display: block;
+    margin: 5px 0;
+}
+
+@media all and (max-width: 600px){
+    body{
+        font-family: karla;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: rgb(210, 228, 243);
+    }
+
+    *{
+        margin: 0;
+    }
+    .container{
+        border-radius: 10px;
+        margin: 20px auto;
+        width: 90%;
+        box-shadow: 0 0 10px gray;
+    }
+
+    #upper-section{
+        border-radius: 10px 10px 0 0;
+        padding: 20px;
+        background-color: white;
+        color: rgb(56, 56, 56);
+    }
+
+    .upper-title{
+        font-size: 20px;
+        margin: 0 0 20px 0;
+        color: hsl(179, 62%, 43%);
+    }
+
+    .guarantee{
+        font-size: 18px;
+        margin: 0 0 20px 0;
+        color:  hsl(71, 73%, 54%);
+    }
+
+    #green-section{
+        border-radius: 0 0 10px 10px;
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        font-weight: 300;
+    }
+
+    #signup-section{
+        padding: 0 20px 20px 20px;
+        background-color: hsl(179, 62%, 43%);
+        border-radius: 0;
+    }
+
+    .signup-title{
+        font-size: 18px;
+        margin: 20px 0 10px 0;
+    }
+
+    .price{
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        margin: 0 0 8px 0;
+    }
+
+    .dollar{
+        margin: 0 8px 0 0;
+    }
+
+    .price-p{
+        margin: 10px 0;
+    }
+
+    .btn{
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        font-family: inherit;
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0 10px 0;
+        color: aliceblue;
+        background-color:  hsl(71, 73%, 54%);
+        box-shadow: 0 0 10px rgb(136, 135, 135);
+    }
+
+    #why-section{
+        border-radius: 0 0 10px 10px;
+        padding: 0 20px;
+        background-color: hsl(179, 62%, 60%);
+    }
+
+    .why-title{
+        font-size: 18px;
+        margin:  20px 0 10px 0;
+    }
+
+    .newvid-p{
+        margin: 0 0 15px 0;
+    }
+}
