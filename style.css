@@ -175,7 +175,7 @@ p{
         margin: 20px 0 10px 0;
         color: aliceblue;
         background-color:  hsl(71, 73%, 54%);
-        box-shadow: 0 0 10px rgb(136, 135, 135);
+        box-shadow: 0 0 10px gray;
     }
 
     #why-section{
